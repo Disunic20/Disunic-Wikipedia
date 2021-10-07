@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js"></script>
+    
+</head>
+<body>
+    <h2>Trending</h2>
+    <div style="text-align: center;">
+        <div class="artical" id="ar1">
+            <img  src="./i1.jpeg"  alt="">
+            <p>Microsoft launched Windows 11 On October 5 , 2021 WorldWide</p>
+            <a href="https://en.wikipedia.org/wiki/Windows_11"><button onclick="IP()">Read More</button></a>
+        </div>
+        <div class="artical" id="ar2">
+            <img src="./i2.jpg" alt="">
+            <p>Kali Linux - Most Advance Hacking Opareting System.</p>
+            <a href="https://en.wikipedia.org/wiki/Kali_Linux"><button>Read More</button></a>
+        </div>
+        <div class="artical" id="ar3">
+            <img src="./i3.png" alt="">
+            <p>Microsoft Corporation is an American multinational technology corporation</p>
+            <a href="https://en.wikipedia.org/wiki/Microsoft"><button>Read More</button></a>
+        </div>
+        <div class="artical" id="ar4">
+            <img src="./i4.jpg" alt="">
+            <p>Ubuntu is the modern, open source operating system on Linux </p>
+            <a href="https://en.wikipedia.org/wiki/Ubuntu"><button>Read More</button></a>
+        </div>
+</body>
+<style>
+    h2{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: cornflowerblue;
+        text-align: center;
+    }
+    .artical{
+        /* border: 1px solid cornflowerblue; */
+        padding: 10px;
+        /* width: 30%; */
+        margin: auto;
+        text-align: center;
+        display: inline-block;
+        margin: 10px 10px 10px 10px;
+    }
+    .artical p{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .artical button{
+        padding: 9px 8px 9px 8px;
+        background: transparent;
+        border: 1px solid;
+        color: cornflowerblue;
+        cursor: pointer;
+    }
+    #ar1 img{
+        width: 300px;
+    }
+    #ar2 img{
+        /* width: 300px; */
+        height: 168px;
+    }
+    #ar3 img{
+        width: 300px;
+    }
+    #ar4 img{
+        width: 300px;
+    }
+    @media (min-width: 300px) {
+        #ar1 img{
+            width: 240px;
+        }
+    }
+    @media (min-width: 300px) {
+        #ar2 img{
+            height: 128px;
+        }
+    }
+    @media (min-width: 300px) {
+        #ar3 img{
+            width: 242px;
+        }
+    }
+    @media (min-width: 300px) {
+        #ar4 img{
+            width: 242px;
+        }
+    }
+</style>
+</html>
